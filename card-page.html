@@ -1,17 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Css/card-page.css">
     <title>System Administrator</title>
 </head>
+
 <body>
-    <div class="flex">
-        <div class="card">
-            <div class="card-content"></div>
-            <div class="card-content"></div>
-            <div class="card-content"></div>
+    <div class="container">
+        <div class="content">
+            <!-- Nav -->
+            <div class="nav">
+                <span class="prg">I Know</span>
+                <div class="radio-inputs">
+                    <label class="radio">
+                        <input type="radio" name="radio" checked="">
+                        <span class="name">Nothing</span>
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="radio">
+                        <span class="name">Linux</span>
+                    </label>
+
+                    <label class="radio">
+                        <input type="radio" name="radio">
+                        <span class="name">Kubernetes</span>
+                    </label>
+                </div>
+                <span class="prg">not sure? Find out <a href="" class="link-here">here</a></span>
+            </div>
+
+            <!-- Main -->
+            <div class="space__60px"></div>
+            <div class="flx-gap">
+                <div class="w-layout-grid time_line__grid g__level0">
+                    <div class="grid-area"></div>
+                    <div class="grid-area main_timeline">
+                        <div class="grid-area journey_step">
+                            <div class="step_inner__text">
+                                <div class="center">Learn the basics of DevOps, Networking and Application</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2"></div>
+                    </div>
+                    <div class="grid-area-2 step_course__wrapper_v2">
+                        <div class="step_course__inner v2">
+                            <div class="j_thumbnail__wrapper">
+                                <a href="" class="w-inline-block">
+                                    <img src="/Media/Person-1.png" alt="" class="journey__course_thumbnail">
+                                </a>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    DevOps Prerequisite course
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">6h 30m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">linux basics</div>
+                                        <div class="j_tag">virtual box networking</div>
+                                        <div class="j_tag">vagrant</div>
+                                        <div class="j_tag">networking basics</div>
+                                        <div class="j_tag">programming basics</div>
+                                        <div class="j_tag">database basics</div>
+                                        <div class="j_tag">Git</div>
+                                        <div class="j_tag">Apache web server</div>
+                                        <div class="j_tag">IPs and ports</div>
+                                        <div class="j_tag">SSL &amp; TLS basics</div>
+                                        <div class="j_tag">YAML</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/left-line-blue.svg" alt="" class="step_line__img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level0">
+                    <div class="grid-area-3 main_timeline">
+                        <div class="journey_step v__orange">
+                            <div class="step_inner__text">
+                                <div>Learn Linux</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2 devop__large"></div>
+                    </div>
+                    <div class="grid-area">
+                        <div class="step_course__wrapper_v2 v_orange">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-2.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="w-inline-block">
+                                                <div class="lp_block__title">Linux for Beginners</div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">5h 15m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video-orange.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">Linux Shell</div>
+                                        <div class="j_tag">Kernel</div>
+                                        <div class="j_tag">RunLevels</div>
+                                        <div class="j_tag">FileTypes</div>
+                                        <div class="j_tag">RPM</div>
+                                        <div class="j_tag">YUM</div>
+                                        <div class="j_tag">DPKG</div>
+                                        <div class="j_tag">APG</div>
+                                        <div class="j_tag">vi editor</div>
+                                        <div class="j_tag">networking</div>
+                                        <div class="j_tag">dns</div>
+                                        <div class="j_tag">ssh</div>
+                                        <div class="j_tag">scp</div>
+                                        <div class="j_tag">iptables</div>
+                                        <div class="j_tag">systemd</div>
+                                        <div class="j_tag">nfs</div>
+                                        <div class="j_tag">lvm</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/right-line-orange.svg" alt="" class="step_line__img2">
+                        </div>
+                        <img src="" alt="">
+                        <div class="step_course__wrapper_v2 v_orange no__top_margin">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-3.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    Linux Foundation Certified System Administrator
+                                                    <br>
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">12h 45m</div>
+                                        </div>
+                                        <div class="lightbox-video">
+                                            <img src="/Media/lightbox-video-orange.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">essential commands</div>
+                                        <div class="j_tag">running systems</div>
+                                        <div class="j_tag">user and group management</div>
+                                        <div class="j_tag">networking</div>
+                                        <div class="j_tag">service configuration</div>
+                                        <div class="j_tag">storage management</div>
+                                        <div class="j_tag">mock exams</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level0">
+                    <div class="grid-area-3 main_timeline">
+                        <div class="journey_step">
+                            <div class="step_inner__text">
+                                <div>Ace Scripting</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2 devops__large"></div>
+                    </div>
+                    <div class="grid-area-2">
+                        <div class="step_course__wrapper_v2">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-2.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    Shell Scripts for Beginners
+                                                    <br>
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">2h 0m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">command line arguments</div>
+                                        <div class="j_tag">variables</div>
+                                        <div class="j_tag">arithmetic operations</div>
+                                        <div class="j_tag">loops</div>
+                                        <div class="j_tag">shebang</div>
+                                        <div class="j_tag">e-commerce application project</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/left-line-blue.svg" alt="" class="step_line__img">
+                        </div>
+                        <img src="" alt="">
+                        <div class="step_course__wrapper_v2 no__top_margin">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-4.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    Advanced Bash Scripting
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">8h 15m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">variables</div>
+                                        <div class="j_tag">functions</div>
+                                        <div class="j_tag">guard clause</div>
+                                        <div class="j_tag">shebang</div>
+                                        <div class="j_tag">file descriptors</div>
+                                        <div class="j_tag">heredocs</div>
+                                        <div class="j_tag">pipes</div>
+                                        <div class="j_tag">parameter</div>
+                                        <div class="j_tag">globs</div>
+                                        <div class="j_tag">special shell</div>
+                                        <div class="j_tag">arrays</div>
+                                        <div class="j_tag">awk print</div>
+                                        <div class="j_tag">sed print</div>
+                                        <div class="j_tag">best practices</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level0">
+                    <div class="grid-area main_timeline">
+                        <div class="journey_step v__orange">
+                            <div class="step_inner__text">
+                                <div>Ace Container Concepts</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2 lac__large"></div>
+                    </div>
+                    <div class="grid-area-4 step_course__wrapper_v2 v_orange">
+                        <div class="step_course__inner v2">
+                            <div class="j_thumbnail__wrapper">
+                                <a href="" class="w-inline-block">
+                                    <img src="/Media/Person-5.webp" alt="" class="journey__course_thumbnail">
+                                </a>
+                            </div>
+                            <div>
+                                <div class="course_inner__details">
+                                    <div class="course_data__wrapper">
+                                        <a href="" class="w-inline-block">
+                                            <div class="lp_block__title">
+                                                Docker for Absolute Beginners
+                                                <br>
+                                            </div>
+                                        </a>
+                                        <div class="space-3px"></div>
+                                        <div class="text-12px text-color-secondary">4h 0m</div>
+                                    </div>
+                                    <div class="video-lightbox">
+                                        <img src="/Media/lightbox-video-orange.svg" alt="">
+                                    </div>
+                                    <a href="" class="course__link_wrapper w-inline-block">
+                                        <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                    </a>
+                                </div>
+                                <div class="tags__wrapper">
+                                    <div class="j_tag">containers</div>
+                                    <div class="j_tag">images</div>
+                                    <div class="j_tag">volumes</div>
+                                    <div class="j_tag">container</div>
+                                    <div class="j_tag">orchestration</div>
+                                    <div class="j_tag">networking</div>
+                                </div>
+                                <div class="path_tags__opner">More details</div>
+                                <div class="path_tags__closer">Hide details</div>
+                            </div>
+                        </div>
+                        <img src="/Media/right-line-orange.svg" class="step_line__img2" alt="">
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level1">
+                    <div class="grid-area"></div>
+                    <div class="grid-area main_timeline">
+                        <div class="grid-area journey_step">
+                            <div class="step_inner__text">
+                                <div class="center">Upskill with Cluster Orchestration</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2"></div>
+                    </div>
+                    <div class="grid-area-2 step_course__wrapper_v2">
+                        <div class="step_course__inner v2">
+                            <div class="j_thumbnail__wrapper">
+                                <a href="" class="w-inline-block">
+                                    <img src="/Media/Person-1.png" alt="" class="journey__course_thumbnail">
+                                </a>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    Kubernetes for Beginners
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">6h 30m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">pods</div>
+                                        <div class="j_tag">replicasets</div>
+                                        <div class="j_tag">deployments</div>
+                                        <div class="j_tag">services</div>
+                                        <div class="j_tag">setting up local environment</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/left-line-blue.svg" alt="" class="step_line__img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level2">
+                    <div class="grid-area main_timeline">
+                        <div class="journey_step v__orange">
+                            <div class="step_inner__text">
+                                <div>Learn Automation</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2 lac__large"></div>
+                    </div>
+                    <div class="grid-area-4 step_course__wrapper_v2 v_orange">
+                        <div class="step_course__inner v2">
+                            <div class="j_thumbnail__wrapper">
+                                <a href="" class="w-inline-block">
+                                    <img src="/Media/Person-5.webp" alt="" class="journey__course_thumbnail">
+                                </a>
+                            </div>
+                            <div>
+                                <div class="course_inner__details">
+                                    <div class="course_data__wrapper">
+                                        <a href="" class="w-inline-block">
+                                            <div class="lp_block__title">
+                                                Ansible for Beginners
+                                                <br>
+                                            </div>
+                                        </a>
+                                        <div class="space-3px"></div>
+                                        <div class="text-12px text-color-secondary">2h 45m</div>
+                                    </div>
+                                    <div class="video-lightbox">
+                                        <img src="/Media/lightbox-video-orange.svg" alt="">
+                                    </div>
+                                    <a href="" class="course__link_wrapper w-inline-block">
+                                        <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                    </a>
+                                </div>
+                                <div class="tags__wrapper">
+                                    <div class="j_tag">setup ansible</div>
+                                    <div class="j_tag">inventory</div>
+                                    <div class="j_tag">playbooks</div>
+                                    <div class="j_tag">modules</div>
+                                    <div class="j_tag">variables</div>
+                                    <div class="j_tag">conditionals</div>
+                                    <div class="j_tag">loops</div>
+                                    <div class="j_tag">roles</div>
+                                </div>
+                                <div class="path_tags__opner">More details</div>
+                                <div class="path_tags__closer">Hide details</div>
+                            </div>
+                        </div>
+                        <img src="/Media/right-line-orange.svg" class="step_line__img2" alt="">
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level2">
+                    <div class="grid-area-3 main_timeline">
+                        <div class="journey_step">
+                            <div class="step_inner__text">
+                                <div>Infrastructure as Code</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2 devops__large"></div>
+                    </div>
+                    <div class="grid-area-2">
+                        <div class="step_course__wrapper_v2">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-6.png" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">Terraform for Beginners</div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">4h 45m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">terraform basics</div>
+                                        <div class="j_tag">terraform state</div>
+                                        <div class="j_tag">terraform with AWS</div>
+                                        <div class="j_tag">remote state</div>
+                                        <div class="j_tag">terraform provisioners</div>
+                                        <div class="j_tag">terraform import</div>
+                                        <div class="j_tag">tainting resources and debugging</div>
+                                        <div class="j_tag">terraform modules</div>
+                                        <div class="j_tag">terraform functions and conditional expressions</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/left-line-blue.svg" alt="" class="step_line__img">
+                        </div>
+                        <img src="" alt="">
+                        <div class="journey_step v__lp_node">
+                            <a href="" class="step_inner__text v__cta ">
+                                <div>IaC Learning Path</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level2">
+                    <div class="grid-area-3 main_timeline">
+                        <div class="journey_step v__orange">
+                            <div class="step_inner__text ">
+                                <div>Gain Cloud Platform Proficiency</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2 sa__large"></div>
+                    </div>
+                    <div class="grid-area">
+                        <div class="step_course__wrapper_v2 v_orange">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-8.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    AWS Cloud Practitioner Certification
+                                                    <br>
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">10h 30m</div>
+                                        </div>
+                                        <div class="lightbox-video">
+                                            <img src="/Media/lightbox-video-orange.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">cloud computing</div>
+                                        <div class="j_tag">cloud economics</div>
+                                        <div class="j_tag">shared responsibility models</div>
+                                        <div class="j_tag">AWS IAM</div>
+                                        <div class="j_tag">AWS security and compliance</div>
+                                        <div class="j_tag">core AWS services</div>
+                                        <div class="j_tag">AWS storage</div>
+                                        <div class="j_tag">AWS compute services</div>
+                                        <div class="j_tag">AWS database</div>
+                                        <div class="j_tag">app integration</div>
+                                        <div class="j_tag">pricing and billing</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/right-line-orange.svg" alt="" class="step_line__img2">
+                            <div class="course__label">
+                                <img src="/Media/Lent.svg" alt="" class="label__bg">
+                                <div class="label__text">Optional</div>
+                            </div>
+                        </div>
+                        <img src="" alt="">
+                        <div class="step_course__wrapper_v2 no__top_margin v_orange">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-9.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    AZ-104: Microsoft Azure Administrator
+                                                    <br>
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">13h 0m</div>
+                                        </div>
+                                        <div class="lightbox-video">
+                                            <img src="/Media/lightbox-video-orange.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">azure active directory</div>
+                                        <div class="j_tag">subscription and governance</div>
+                                        <div class="j_tag">implementing virtual networking</div>
+                                        <div class="j_tag">configure VMs</div>
+                                        <div class="j_tag">load balancing</div>
+                                        <div class="j_tag">intersite connectivity</div>
+                                        <div class="j_tag">automating deployment and configuration</div>
+                                        <div class="j_tag">securing storage</div>
+                                        <div class="j_tag">azure blobs</div>
+                                        <div class="j_tag">azure files</div>
+                                        <div class="j_tag">azure app services</div>
+                                        <div class="j_tag">azure blobs</div>
+                                        <div class="j_tag">backup and recovery</div>
+                                        <div class="j_tag">network monitoring</div>
+                                        <div class="j_tag">resource monitoring</div>
+                                        <div class="j_tag">mock exams</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <div class="course__label">
+                                <img src="/Media/Lent-2.svg" alt="" class="label__bg">
+                                <div class="label__text">Recommended</div>
+                            </div>
+                        </div>
+                        <img src="" alt="">
+                        <div class="step_course__wrapper_v2 no__top_margin v_orange">
+                            <div class="step_course__inner v2">
+                                <div class="j_thumbnail__wrapper">
+                                    <a href="" class="w-inline-block">
+                                        <img src="/Media/Person-10.webp" alt="" class="journey__course_thumbnail">
+                                    </a>
+                                </div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    GCP Digital cloud Leader
+                                                    <br>
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">4h 0m</div>
+                                        </div>
+                                        <div class="lightbox-video">
+                                            <img src="/Media/lightbox-video-orange.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">digital transformation</div>
+                                        <div class="j_tag">resource hierarchy</div>
+                                        <div class="j_tag">compute</div>
+                                        <div class="j_tag">databases</div>
+                                        <div class="j_tag">object storage</div>
+                                        <div class="j_tag">API&#x27;s in GCP</div>
+                                        <div class="j_tag">google cloud solutions for AI and ML</div>
+                                        <div class="j_tag">container orchestration</div>
+                                        <div class="j_tag">security in GCP</div>
+                                        <div class="j_tag">GCP architecture</div>
+                                        <div class="j_tag">mock exams</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <div class="course__label">
+                                <img src="/Media/Lent.svg" alt="" class="label__bg">
+                                <div class="label__text">Optional</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-layout-grid time_line__grid g__level2">
+                    <div class="grid-area"></div>
+                    <div class="grid-area main_timeline">
+                        <div class="grid-area journey_step">
+                            <div class="step_inner__text">
+                                <div class="center">Get Career Ready!</div>
+                            </div>
+                        </div>
+                        <div class="journy_line__v2"></div>
+                    </div>
+                    <div class="grid-area-2 step_course__wrapper_v2">
+                        <div class="step_course__inner v2">
+                            <div class="j_thumbnail__wrapper">
+                                <a href="" class="w-inline-block">
+                                    <img src="/Media/Person-11.webp" alt="" class="journey__course_thumbnail">
+                                </a>
+                            </div>
+                            <div>
+                                <div>
+                                    <div class="course_inner__details">
+                                        <div class="course_data__wrapper">
+                                            <a href="" class="w-inline-block">
+                                                <div class="lp_block__title">
+                                                    DevOps Interview Preparation Course
+                                                </div>
+                                            </a>
+                                            <div class="space-3px"></div>
+                                            <div class="text-12px text-color-secondary">5h 30m</div>
+                                        </div>
+                                        <div class="video-lightbox">
+                                            <img src="/Media/lightbox-video.svg" alt="">
+                                        </div>
+                                        <a href="" class="course__link_wrapper w-inline-block">
+                                            <img src="/Media/share-btn.svg" alt="" class="course_link_btn">
+                                        </a>
+                                    </div>
+                                    <div class="tags__wrapper">
+                                        <div class="j_tag">linux</div>
+                                        <div class="j_tag">git</div>
+                                        <div class="j_tag">docker</div>
+                                        <div class="j_tag">Kubernetes</div>
+                                        <div class="j_tag">helm</div>
+                                        <div class="j_tag">hashicorp</div>
+                                        <div class="j_tag">ansible</div>
+                                        <div class="j_tag">jenkins and ci/cd</div>
+                                        <div class="j_tag">aws</div>
+                                        <div class="j_tag">programming</div>
+                                        <div class="j_tag">devops</div>
+                                    </div>
+                                    <div class="path_tags__opner">More details</div>
+                                    <div class="path_tags__closer">Hide details</div>
+                                </div>
+                            </div>
+                            <img src="/Media/left-line-blue.svg" alt="" class="step_line__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space__60px"></div>
         </div>
     </div>
+    <script src="/Js/card-page.js"></script>
 </body>
+
 </html>
